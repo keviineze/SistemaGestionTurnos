@@ -1,66 +1,82 @@
-✒️ Introducción al Diseño Orientado a Objetos
+# ✒️ Introducción al Diseño Orientado a Objetos
 
-
-El Paradigma Orientado a Objetos es una forma de programacion en el cual los programas se pueden construir a partir de "objetos". Un objeto puede ser pensado como una entidad que tiene un "estado" y un "comportamiento".
+El **Paradigma Orientado a Objetos (POO)** es una forma de programacion en el cual los programas se pueden construir a partir de "objetos". Un objeto puede ser pensado como una entidad que tiene un **estado** y un **comportamiento**.
 
 El POO es imporante ya que te permitirá expandir el codigo a medida que el proyecto crezca y construir de manera mas organizada y eficiente.
 
-🚩 Los cuatro fundamentos de POO
+---
 
-Los cuatros fundamentos del Paradigma Orientado a Objetos son la "Abstracción", "Polimorfismo", "Encapsulación" y "Herencia".
+## 🚩 Los cuatro fundamentos de POO
 
-📝 Abracción: Implica abstraer los detalles innecesarios para centrarse en lo que es relevante para la aplicación en particular.
+Los cuatros fundamentos del Paradigma Orientado a Objetos son:
 
-🔖Ejemplo del mundo real:
+1. **Abstracción**
+2. **Polimorfismo**
+3. **Encapsulación**
+4. **Herencia**
 
-Con una impresora, solo necesitas saber como cargar el papel, llenar el cartucho de tinta y enviar el documento a la impresora para que imprima. En el POO, se podría modelar una impresora como un objeto con metodos como imprimir(), cargarPapel() y llenarTinta() sin exponer los detalles del mecanismo interno de la impresora.
+### 📝 Abracción
 
-📝 Polimorfismo: Es el concepto de que un solo método, puede comportarse de manera diferente según el tipo de objeto que lo llame.
+Implica abstraer los detalles innecesarios para centrarse en lo que es relevante para la aplicación en particular.
 
-🔖Ejemplo del mundo real:
+#### 🔖Ejemplo del mundo real:
 
-En un vehiculo, puede referirse a varios metodos de transporte, como autos, bicicletas, autobuses, motocicletas y camiones. A pesar de que son diferentes tipos de transporte, todos compartes algunos atributos comunes como mover personas. En el POO, podemos considerar el vehiculo como una clase base, y el auto, bicicleta, etc. como subclases.
+Con una impresora, solo necesitas saber como cargar el papel, llenar el cartucho de tinta y enviar el documento a la impresora para que imprima. En el POO, se podría modelar una impresora como un objeto con metodos como `imprimir()`, `cargarPapel()`, y `llenarTinta()` sin exponer los detalles del mecanismo interno de la impresora.
 
-📝 Encapsulación: La encapsulación es una forma de ocultar o encapsular los datos y los detalles de implementación dentro de una clase, ocultando así la complejidad.
+### 📝 Polimorfismo
 
-🔖Ejemplo del mundo real:
+Es el concepto de que un solo método, puede comportarse de manera diferente según el tipo de objeto que lo llame.
 
-Con un reloj, solo interactuas con los elementos visibles y controlables, como el mecanismo para ajustar la hora (agujas). El mecanismo interno del reloj, que incluye los engranajes, resortes y piezas movibles, está encapsulado y oculto y no son accesibles directamente desde fuera del objeto.
+#### 🔖Ejemplo del mundo real:
 
-📝 Herencia: Permite la definición de múltiples clases usando las propiedades de otras clases. Creamos clases heredando las funciones y variables de una clase base. Luego agregamos nuevas funciones para mejorar su desempeño.
+En un vehiculo, puede referirse a varios metodos de transporte, como autos, bicicletas, autobuses, motocicletas y camiones. A pesar de que son diferentes tipos de transporte, todos compartes algunos atributos comunes como mover personas. En el POO, podemos considerar el **vehículo** como una **clase base**, mientras que **auto**, **bicicleta**, etc., serían **subclases**.
 
-🔖Ejemplo del mundo real:
+### 📝 Encapsulación
 
-Todos los seres humanos son mamiferos, pero tambien tenemos caracteristicas especificas que nos diferencian de otros mamiferos. En el POO, podríamos tener una clase Mamifero, con propiedades de respirar() y alimentarse(), y una clase Humano que hereda de Mamifero con propiedades especificas como habla().
+La encapsulación es una forma de ocultar o encapsular los datos y los detalles de implementación dentro de una clase, ocultando así la complejidad.
 
+#### 🔖Ejemplo del mundo real:
 
-🚩 Requisitos iniciales del sistema
+Con un reloj, solo interactuas con los elementos visibles y controlables, como el mecanismo para ajustar la hora (agujas). El mecanismo interno del reloj, que incluye los engranajes, resortes y piezas movibles, está **encapsulado** y oculto y no son accesibles directamente desde fuera del objeto.
+
+### 📝 Herencia
+
+Permite la definición de múltiples clases usando las propiedades de otras clases. Creamos clases heredando las funciones y variables de una **clase base**. Luego agregamos nuevas funciones para mejorar su desempeño.
+
+#### 🔖Ejemplo del mundo real:
+
+Todos los seres humanos son **mamíferos**, pero tambien tenemos caracteristicas especificas que nos diferencian de otros mamiferos. En el POO, podríamos tener una **clase Mamífero**, con propiedades de `respirar()` y `alimentarse()`, y una **clase Humano** que hereda de **Mamífero** con propiedades especificas como `hablar()`.
+
+---
+
+## 🚩 Requisitos iniciales del sistema
 
 Los requisitos funcionales del sistema de gestión de turnos son:
 
-🔵 Registro y gestión de pacientes y profesionales: 
+### 🔵 Registro y gestión de pacientes y profesionales 
+- Dentro del sistema se tendría que poder registrar a todos los **profesionales** y **pacientes** almacenando su información y contacto.
 
-  🔶 Dentro del sistema se tendría que poder registrar a todos los profesionales y pacientes almacenando su información y contacto.
+### 🔵 Asignación de turnos:
+- El sistema deberá poder asignar turnos a los medicos disponibles y a su vez evitar asignar a **dos pacientes al mismo horario**.
 
-🔵 Asignación de turnos:
+### 🔵 Estado de los turnos:
+- El sistema debe permitir cambiar el estado del turno entre:
+  - "Pendiente"
+  - "Confirmado"
+  - "Cancelado"
+  - "Realizado"
 
-  🔶 El sistema deberá poder asignar turnos a los medicos disponibles y a su vez evitar asignar a dos pacientes el mismo horario.
+### 🔵 Notificaciones:
+- Se enviarán **notificaciones automáticas** ya sea a pacientes o medicos cuando un turno sea **confirmado, cancelado o modificado** mediante via email o mensaje de texto.
 
-🔵 Estado de los turnos:
+### 🔵 Seguridad:
+- Dentro del sistema solo podrá ser accesible para el **personal autorizado** con referencia a las informaciones de los pacientes.
 
-  🔶 El sistema debe permitir poder cambiar el estado del turno entre "pendiente", "confirmado", "cancelado" y "realizado"
+---
 
-🔵 Notificaciones:
+## 🚩 Casos de Uso
 
-  🔶 Se enviarán notificaciones automaticas ya sea a pacientes o medicos cuando un turno sea confirmado, cancelado o modificado mediante via email o mensaje de texto.
-
-🔵 Seguridad:
-
-  🔶 Dentro del sistema solo podrá ser accesible para el personal autorizado con referencia a las informaciones de los pacientes.
-
-🚩 Casos de Uso
-
-   📌 1. Nombre del caso de uso: Registrar un Nuevo Medico.
+### 📌 1. Nombre del caso de uso: Registrar un Nuevo Medico.
    
    ▫️Actor(es) involucrado(s): Administrador del Centro de Salud.
    
