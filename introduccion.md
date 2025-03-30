@@ -77,62 +77,106 @@ Los requisitos funcionales del sistema de gestión de turnos son:
 ## 🚩 Casos de Uso
 
 ### 📌 1. Nombre del caso de uso: Registrar un Nuevo Medico.
-   
-   ▫️Actor(es) involucrado(s): Administrador del Centro de Salud.
-   
-   ▫️Descripción breve: El administrador ingresa los datos de un nuevo medico al sistema.
-   
-   ▫️Flujo principal de eventos: El administrador inicia sesion en el sistema, selecciona la opcion "Registrar Nuevo Medico", luego completa el formulario con los datos del medico, confirma la información y se guardará en el sistema
-   
-   ▫️Precondiciones: El administrador debe estar autenticado en el sistema.
-   
-   ▫️Postcondiciones: El medico está registrado en el sistema y puede comenzar a recibir turnos y atender a clientes.
 
-   📌 2. Nombre del caso de uso: Modificar Datos de un Paciente.
+**▫️Actor(es) involucrado(s):** Administrador del Centro de Salud.
+
+**▫️Descripción breve:** El administrador ingresa los datos de un nuevo medico al sistema.
+
+**▫️Flujo principal de eventos:**
+1. El administrador inicia sesión en el sistema.
+2. Selecciona la opción **"Registrar Nuevo Médico"**.
+3. Completa el formulario con los datos del médico.
+4. Confirma la información y se guarda en el sistema.
+
+**▫️Precondiciones:** 
+- El administrador debe estar autenticado en el sistema.
    
-   ▫️Actor(es) involucrado(s): Administrador del Centro de Salud.
+**▫️Postcondiciones:**
+- El medico está registrado en el sistema y puede comenzar a recibir turnos y atender a clientes.
+
+---
+
+### 📌 2. Nombre del caso de uso: Modificar Datos de un Paciente.
+   
+**▫️Actor(es) involucrado(s):** Administrador del Centro de Salud.
   
-   ▫️Descripción breve: El administrador actualiza los datos de un paciente en el sistema.
+**▫️Descripción breve:** El administrador actualiza los datos de un paciente en el sistema.
    
-   ▫️Flujo principal de eventos: El administrador inicia sesion en el sistema, selecciona la opcion "Modificar Datos de Paciente", luego edita los datos del paciente (nombre, dni, fecha de nacimiento, telefono), confirma la información y se guardará en el sistema.
+**▫️Flujo principal de eventos:**
+1. El administrador inicia sesión en el sistema.
+2. Selecciona la opción **"Modificar Datos de Paciente"**.
+3. Edita los datos del paciente (nombre, DNI, fecha de nacimiento, teléfono).
+4. Confirma la información y se guarda en el sistema.
 
-   ▫️Precondiciones: El administrador debe estar autenticado en el sistema y el paciente debe estar registrado.
+**▫️Precondiciones:** 
+- El administrador debe estar autenticado en el sistema y el paciente debe estar registrado.
 
-   ▫️Postcondiciones: Los datos del paciente están actualizados en el sistema.
+**▫️Postcondiciones:** 
+- Los datos del paciente están actualizados en el sistema.
 
-   📌 3. Nombre del caso de uso: Ver Disponibilidad de Turnos de un Médico
+---
 
-   ▫️Actor(es) involucrado(s): Administrador del Centro de Salud
+### 📌 3. Nombre del caso de uso: Ver Disponibilidad de Turnos de un Médico
+
+**▫️Actor(es) involucrado(s):** Administrador del Centro de Salud
    
-   ▫️Descripción breve: El administrador consulta la disponibilidad de turnos de un médico.
+**▫️Descripción breve:** El administrador consulta la disponibilidad de turnos de un médico.
    
-   ▫️Flujo principal de eventos: El administrador inicia sesion en el sistema, selecciona la opcion "Ver Disponibilidad de Turnos", busca el médico por su nombre y el sistema mostrará la agenda del médico seleccionado, el cual te permite buscar por fecha o estados de turnos.
+**▫️Flujo principal de eventos:**
+1. Inicia sesión en el sistema.
+2. Selecciona **"Ver Disponibilidad de Turnos"**.
+3. Busca al médico por nombre.
+4. El sistema muestra la agenda del médico seleccionado.
 
-   ▫️Precondiciones: El administrador debe estar autenticado en el sistema y el médico debe estar registrado.
+**▫️Precondiciones:**
+- El administrador debe estar autenticado en el sistema y el médico debe estar registrado.
 
-   ▫️Postcondiciones: El administrador tiene acceso a la disponibilidad de turnos del médico.
+**▫️Postcondiciones:** 
+- El administrador tiene acceso a la disponibilidad de turnos del médico.
 
-   📌 4. Nombre del caso de uso: Enviar Notificaciones Masivas a Pacientes.
+---
 
-   ▫️Actor(es) involucrado(s): Administrador del Centro de Salud
+### 📌 4. Nombre del caso de uso: Enviar Notificaciones Masivas a Pacientes.
+
+**▫️Actor(es) involucrado(s):** Administrador del Centro de Salud
    
-   ▫️Descripción breve: El administrador envía una notificación a varios pacientes sobre un evento o cambio general.
+**▫️Descripción breve:** El administrador envía una notificación a varios pacientes sobre un evento o cambio general.
    
-   ▫️Flujo principal de eventos: El administrador inicia sesion en el sistema, selecciona la opcion "Enviar Notificaciones Masivas", elige el grupo deseado de pacientes, escribe el mensaje y confirma el envío de notificacion. El sistema elegirá automaticamente enviarlo por SMS o Email.
+**▫️Flujo principal de eventos:**
+1. Inicia sesión en el sistema.
+2. Selecciona **"Enviar Notificaciones Masivas"**.
+3. Elige el grupo de pacientes.
+4. Escribe el mensaje y confirma el envío.
+5. El sistema envía automáticamente por **SMS o Email**.
 
-   ▫️Precondiciones: El administrador debe estar autenticado en el sistema y los pacientes en sí.
+**▫️Precondiciones:** 
+- El administrador debe estar autenticado en el sistema y los pacientes en sí.
 
-   ▫️Postcondiciones: Los pacientes del gruo reciben la notificación.
+**▫️Postcondiciones:** 
+- Los pacientes del grupo reciben la notificación.
 
-   📌 5. Nombre del caso de uso: Generar Informe de Turnos por Período.
+---
 
-   ▫️Actor(es) involucrado(s): Administrador del Centro de Salud
+### 📌 5. Nombre del caso de uso: Generar Informe de Turnos por Período.
+
+**▫️Actor(es) involucrado(s):** Administrador del Centro de Salud
    
-   ▫️Descripción breve: El administrador genera un informe de los turnos realizados en un período específico.
+**▫️Descripción breve:** El administrador genera un informe de los turnos realizados en un período específico.
    
-   ▫️Flujo principal de eventos: El administrador inicia sesion en el sistema, selecciona la opcion "Generar Informe de Turnos", elige el periodo de tiempo del informe y el sistema generará un informe de todos los turnos que estén relacionados a la fecha elegida y podrá descargarlo en formato PDF.
+**▫️Flujo principal de eventos:**
+1. El administrador inicia sesión en el sistema.
+2. Selecciona **Generar Informe de Turnos**.
+3. Elige el periodo de tiempo del informe.
+4. El sistema generará un informe de todos los turnos que estén relacionados a la fecha elegida.
+5. Descargar en formato PDF.
 
-   ▫️Precondiciones: El administrador debe estar autenticado en el sistema y debe haber turnos registrados anteriormente.
+**▫️Precondiciones:** 
+- El administrador debe estar autenticado en el sistema y debe haber turnos registrados anteriormente.
 
-   ▫️Postcondiciones: El administrador tiene acceso al informe de turnos por período.
+**▫️Postcondiciones:** 
+- El administrador tiene acceso al informe de turnos por período.
+
+---
+
+## 🚩 Boceto
 
