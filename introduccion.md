@@ -5,7 +5,7 @@ El Paradigma Orientado a Objetos es una forma de programacion en el cual los pro
 
 El POO es imporante ya que te permitirá expandir el codigo a medida que el proyecto crezca y construir de manera mas organizada y eficiente.
 
-♦️ Los cuatro fundamentos de POO
+🚩 Los cuatro fundamentos de POO
 
 Los cuatros fundamentos del Paradigma Orientado a Objetos son la "Abstracción", "Polimorfismo", "Encapsulación" y "Herencia".
 
@@ -34,5 +34,89 @@ Con un reloj, solo interactuas con los elementos visibles y controlables, como e
 Todos los seres humanos son mamiferos, pero tambien tenemos caracteristicas especificas que nos diferencian de otros mamiferos. En el POO, podríamos tener una clase Mamifero, con propiedades de respirar() y alimentarse(), y una clase Humano que hereda de Mamifero con propiedades especificas como habla().
 
 
-♦️ Requisitos iniciales del sistema
+🚩 Requisitos iniciales del sistema
+
+Los requisitos funcionales del sistema de gestión de turnos son:
+
+🔵 Registro y gestión de pacientes y profesionales: 
+
+  🔶 Dentro del sistema se tendría que poder registrar a todos los profesionales y pacientes almacenando su información y contacto.
+
+🔵 Asignación de turnos:
+
+  🔶 El sistema deberá poder asignar turnos a los medicos disponibles y a su vez evitar asignar a dos pacientes el mismo horario.
+
+🔵 Estado de los turnos:
+
+  🔶 El sistema debe permitir poder cambiar el estado del turno entre "pendiente", "confirmado", "cancelado" y "realizado"
+
+🔵 Notificaciones:
+
+  🔶 Se enviarán notificaciones automaticas ya sea a pacientes o medicos cuando un turno sea confirmado, cancelado o modificado mediante via email o mensaje de texto.
+
+🔵 Seguridad:
+
+  🔶 Dentro del sistema solo podrá ser accesible para el personal autorizado con referencia a las informaciones de los pacientes.
+
+🚩 Casos de Uso
+
+   📌 1. Nombre del caso de uso: Registrar un Nuevo Medico.
+   
+   ▫️Actor(es) involucrado(s): Administrador del Centro de Salud.
+   
+   ▫️Descripción breve: El administrador ingresa los datos de un nuevo medico al sistema.
+   
+   ▫️Flujo principal de eventos: El administrador inicia sesion en el sistema, selecciona la opcion "Registrar Nuevo Medico", luego completa el formulario con los datos del medico, confirma la información y se guardará en el sistema
+   
+   ▫️Precondiciones: El administrador debe estar autenticado en el sistema.
+   
+   ▫️Postcondiciones: El medico está registrado en el sistema y puede comenzar a recibir turnos y atender a clientes.
+
+   📌 2. Nombre del caso de uso: Modificar Datos de un Paciente.
+   
+   ▫️Actor(es) involucrado(s): Administrador del Centro de Salud.
+  
+   ▫️Descripción breve: El administrador actualiza los datos de un paciente en el sistema.
+   
+   ▫️Flujo principal de eventos: El administrador inicia sesion en el sistema, selecciona la opcion "Modificar Datos de Paciente", luego edita los datos del paciente (nombre, dni, fecha de nacimiento, telefono), confirma la información y se guardará en el sistema.
+
+   ▫️Precondiciones: El administrador debe estar autenticado en el sistema y el paciente debe estar registrado.
+
+   ▫️Postcondiciones: Los datos del paciente están actualizados en el sistema.
+
+   📌 3. Nombre del caso de uso: Ver Disponibilidad de Turnos de un Médico
+
+   ▫️Actor(es) involucrado(s): Administrador del Centro de Salud
+   
+   ▫️Descripción breve: El administrador consulta la disponibilidad de turnos de un médico.
+   
+   ▫️Flujo principal de eventos: El administrador inicia sesion en el sistema, selecciona la opcion "Ver Disponibilidad de Turnos", busca el médico por su nombre y el sistema mostrará la agenda del médico seleccionado, el cual te permite buscar por fecha o estados de turnos.
+
+   ▫️Precondiciones: El administrador debe estar autenticado en el sistema y el médico debe estar registrado.
+
+   ▫️Postcondiciones: El administrador tiene acceso a la disponibilidad de turnos del médico.
+
+   📌 4. Nombre del caso de uso: Enviar Notificaciones Masivas a Pacientes.
+
+   ▫️Actor(es) involucrado(s): Administrador del Centro de Salud
+   
+   ▫️Descripción breve: El administrador envía una notificación a varios pacientes sobre un evento o cambio general.
+   
+   ▫️Flujo principal de eventos: El administrador inicia sesion en el sistema, selecciona la opcion "Enviar Notificaciones Masivas", elige el grupo deseado de pacientes, escribe el mensaje y confirma el envío de notificacion. El sistema elegirá automaticamente enviarlo por SMS o Email.
+
+   ▫️Precondiciones: El administrador debe estar autenticado en el sistema y los pacientes en sí.
+
+   ▫️Postcondiciones: Los pacientes del gruo reciben la notificación.
+
+   📌 5. Nombre del caso de uso: Generar Informe de Turnos por Período.
+
+   ▫️Actor(es) involucrado(s): Administrador del Centro de Salud
+   
+   ▫️Descripción breve: El administrador genera un informe de los turnos realizados en un período específico.
+   
+   ▫️Flujo principal de eventos: El administrador inicia sesion en el sistema, selecciona la opcion "Generar Informe de Turnos", elige el periodo de tiempo del informe y el sistema generará un informe de todos los turnos que estén relacionados a la fecha elegida y podrá descargarlo en formato PDF.
+
+   ▫️Precondiciones: El administrador debe estar autenticado en el sistema y debe haber turnos registrados anteriormente.
+
+   ▫️Postcondiciones: El administrador tiene acceso al informe de turnos por período.
 
