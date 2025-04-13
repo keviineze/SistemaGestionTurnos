@@ -10,7 +10,7 @@ El objetivo del proyecto consiste en desarrollar un sistema de gestión de turno
 
 - 📄 [Anexos](anexos.md)
 - 📁 [Diagramas UML](Archivos%20Actividad%202/Diagramas%20UML.md)
-- 🔧 [Herramientas Ágiles](enlace-a-herramientas-agile)
+- 🔧 [Herramientas Ágiles](Archivos%20Actividad%202/herramientas_agile.md)
 
 ---
 
