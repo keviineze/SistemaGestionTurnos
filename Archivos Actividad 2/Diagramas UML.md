@@ -6,6 +6,6 @@ Bienvenido a la sección de diagramas del sistema de gestión de turnos médicos
 
 ## 🔷 Índice de contenidos
 
-- 📄 [Diagramas de Casos de Uso](Archivos%20Actividad%202/Diagramas_de_Casos_de_Uso.md)
+- 📄 [Diagramas de Casos de Uso](Diagramas_de_Casos_de_Uso.md)
 - 📝 [Escenarios de Casos de Uso](Escenarios%20de%20Casos%20De%20Uso.md)
 
