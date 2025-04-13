@@ -7,5 +7,5 @@ Bienvenido a la sección de diagramas del sistema de gestión de turnos médicos
 ## 🔷 Índice de contenidos
 
 - 📄 [Diagrama UML](./Diagrama-UML.pdf)
-- 📝 [Escenarios de Casos de Uso](./EscenariosCasosDeUso.md)
+- 📝 [Escenarios de Casos de Uso](Escenarios%20de%20Casos%20De%20Uso.md)
 
