@@ -147,10 +147,21 @@ Los requisitos funcionales del sistema de gestión de turnos son:
 **▫️Descripción breve:** El administrador consulta la disponibilidad de turnos de un médico.
    
 **▫️Flujo principal de eventos:**
-1. Inicia sesión en el sistema.
-2. Selecciona **"Ver Disponibilidad de Turnos"**.
-3. Busca al médico por nombre.
-4. El sistema muestra la agenda del médico seleccionado.
+  1. El administrador inicia sesión en el sistema.
+  2. Selecciona la opción **"Ver Disponibilidad de Turnos"** en el menú principal.
+  3. El sistema muestra un campo de búsqueda para localizar al médico.
+  4. El administrador ingresa el nombre, especialidad o matrícula del médico.
+  5. El sistema lista los médicos que coinciden con los criterios ingresados.
+  6. El administrador selecciona al médico deseado de la lista.
+  7. El sistema muestra la agenda del médico seleccionado con:
+     - Días de atención.
+     - Horarios disponibles.
+     - Turnos ya reservados.
+     - Estado general de disponibilidad.
+  8. El administrador puede aplicar filtros por fecha o turno (mañana/tarde).
+  9. El sistema actualiza la vista según los filtros aplicados.
+  10. Si hay algún error (por ejemplo, médico no registrado), se muestra un mensaje de advertencia.
+  11. El administrador revisa la disponibilidad y cierra la consulta o procede con otra acción (ej. asignar turno).
 
 **▫️Precondiciones:**
 - El administrador debe estar autenticado en el sistema y el médico debe estar registrado.
