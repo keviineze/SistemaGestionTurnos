@@ -87,19 +87,12 @@ Los requisitos funcionales del sistema de gestión de turnos son:
 2. Selecciona la opción **"Registrar Nuevo Médico"**.
 3. El sistema muestra un formulario para registrar un nuevo médico.
 4. El administrador ingresa la siguiente información en el formulario:
-
-Nombre completo del médico.
-
-Número de documento (DNI).
-
-Especialidad médica.
-
-Número de matrícula profesional.
-
-Correo electrónico y teléfono de contacto.
-
-Horarios de atención disponibles.
-
+   - Nombre completo del médico.
+   - Número de documento (DNI).
+   - Especialidad médica.
+   - Número de matrícula profesional.
+   - Correo electrónico y teléfono de contacto.
+   - Horarios de atención disponibles.
 5. El sistema valida los datos ingresados (formato correcto, campos obligatorios, etc.).
 6. Si hay errores, se muestran mensajes para que el administrador los corrija.
 7. Una vez validado, el administrador confirma la operación haciendo clic en “Guardar”.
