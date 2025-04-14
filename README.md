@@ -19,5 +19,5 @@ El objetivo del proyecto consiste en desarrollar un sistema de gestión de turno
 | **Nombre y Apellido:** Kevin Sosa   |
 | **Carrera:** Programación   |
 | **Materia:** Diseño Orientado a Objetos |
-| **Profesor:** Lic. Matías Velazquez |
+| **Profesor:** Lic. Matias Velasquez |
 | **Año:** 2025               |
