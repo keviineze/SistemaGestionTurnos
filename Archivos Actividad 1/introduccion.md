@@ -210,11 +210,16 @@ Los requisitos funcionales del sistema de gestión de turnos son:
 **▫️Descripción breve:** El administrador genera un informe de los turnos realizados en un período específico.
    
 **▫️Flujo principal de eventos:**
-1. El administrador inicia sesión en el sistema.
-2. Selecciona **Generar Informe de Turnos**.
-3. Elige el periodo de tiempo del informe.
-4. El sistema generará un informe de todos los turnos que estén relacionados a la fecha elegida.
-5. Descargar en formato PDF.
+  1. El administrador inicia sesión en el sistema.
+  2. Selecciona la opción **"Generar Informe de Turnos"**.
+  3. El sistema muestra un formulario para configurar el informe.
+  4. El administrador selecciona el **rango de fechas** del informe (fecha de inicio y fecha de fin).
+  5. Hace clic en **"Generar Informe"**.
+  6. El sistema procesa la información y recopila los turnos correspondientes al período seleccionado.
+  7. El administrador revisa la información.
+  8. Hace clic en **"Descargar como PDF"** para obtener una copia del informe.
+  9. El sistema genera el archivo PDF y lo descarga automáticamente o lo pone a disposición en una carpeta de informes.
+  10. El sistema registra el evento de generación de informe para auditoría.
 
 **▫️Precondiciones:** 
 - El administrador debe estar autenticado en el sistema y debe haber turnos registrados anteriormente.
