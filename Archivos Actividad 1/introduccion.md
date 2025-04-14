@@ -115,9 +115,22 @@ Los requisitos funcionales del sistema de gestión de turnos son:
    
 **▫️Flujo principal de eventos:**
 1. El administrador inicia sesión en el sistema.
-2. Selecciona la opción **"Modificar Datos de Paciente"**.
-3. Edita los datos del paciente (nombre, DNI, fecha de nacimiento, teléfono).
-4. Confirma la información y se guarda en el sistema.
+  2. Selecciona la opción **"Modificar Datos de Paciente"**.
+  3. El sistema muestra una interfaz para buscar al paciente.
+  4. El administrador ingresa un criterio de búsqueda (ej. DNI o nombre del paciente).
+  5. El sistema muestra los datos actuales del paciente.
+  6. El administrador edita la información necesaria en el formulario:
+     - Nombre completo del paciente.
+     - Número de documento (DNI).
+     - Fecha de nacimiento.
+     - Número de teléfono.
+     - Dirección.
+     - Otro dato relevante (ej. grupo sanguíneo, antecedentes, etc.).
+  7. El sistema valida los datos ingresados (formato correcto, campos obligatorios, etc.).
+  8. Si hay errores, se muestran mensajes para que el administrador los corrija.
+  9. Una vez validado, el administrador confirma la operación haciendo clic en **"Guardar"**.
+  10. El sistema actualiza los datos del paciente en la base de datos.
+  11. Se muestra un mensaje de confirmación indicando que la modificación fue exitosa.
 
 **▫️Precondiciones:** 
 - El administrador debe estar autenticado en el sistema y el paciente debe estar registrado.
