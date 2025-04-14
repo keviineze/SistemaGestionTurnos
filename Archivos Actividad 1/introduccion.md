@@ -85,8 +85,26 @@ Los requisitos funcionales del sistema de gestión de turnos son:
 **▫️Flujo principal de eventos:**
 1. El administrador inicia sesión en el sistema.
 2. Selecciona la opción **"Registrar Nuevo Médico"**.
-3. Completa el formulario con los datos del médico.
-4. Confirma la información y se guarda en el sistema.
+3. El sistema muestra un formulario para registrar un nuevo médico.
+4. El administrador ingresa la siguiente información en el formulario:
+
+Nombre completo del médico.
+
+Número de documento (DNI).
+
+Especialidad médica.
+
+Número de matrícula profesional.
+
+Correo electrónico y teléfono de contacto.
+
+Horarios de atención disponibles.
+
+5. El sistema valida los datos ingresados (formato correcto, campos obligatorios, etc.).
+6. Si hay errores, se muestran mensajes para que el administrador los corrija.
+7. Una vez validado, el administrador confirma la operación haciendo clic en “Guardar”.
+8. El sistema guarda los datos del nuevo médico en la base de datos.
+9. Se muestra un mensaje de confirmación indicando que el médico fue registrado correctamente..
 
 **▫️Precondiciones:** 
 - El administrador debe estar autenticado en el sistema.
