@@ -15,7 +15,7 @@ Los cuatros fundamentos del Paradigma Orientado a Objetos son:
 3. **Encapsulación**
 4. **Herencia**
 
-### 📝 Abracción
+### 📝 Abstracción
 
 Implica abstraer los detalles innecesarios para centrarse en lo que es relevante para la aplicación en particular.
 
