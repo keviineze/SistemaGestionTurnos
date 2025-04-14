@@ -2,4 +2,4 @@
 
   ![Diagrama de Caso de Uso - Registrar Nuevo Médico](../Adicionales/Imagenes/Diagrama_Caso_1.png)
 
-  [Accede a Drive para verlo en Linea!]([https://tuenlace.com](https://drive.google.com/file/d/1uV8L-1CtdH1mRbPArLLSzoIUhNQ-Agua/view?usp=drive_link))
+  [Accede a Drive para verlo en Linea!]([https://tuenlace.com](https://drive.google.com/file/d/1uV8L-1CtdH1mRbPArLLSzoIUhNQ-Agua/view?usp=drive_link)
