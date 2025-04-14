@@ -178,11 +178,22 @@ Los requisitos funcionales del sistema de gestión de turnos son:
 **▫️Descripción breve:** El administrador envía una notificación a varios pacientes sobre un evento o cambio general.
    
 **▫️Flujo principal de eventos:**
-1. Inicia sesión en el sistema.
-2. Selecciona **"Enviar Notificaciones Masivas"**.
-3. Elige el grupo de pacientes.
-4. Escribe el mensaje y confirma el envío.
-5. El sistema envía automáticamente por **SMS o Email**.
+  1. El administrador inicia sesión en el sistema.
+  2. Selecciona la opción **"Enviar Notificaciones Masivas"**.
+  3. El sistema muestra un formulario para configurar el envío de notificaciones.
+  4. El administrador elige el grupo de pacientes al que desea enviar la notificación:
+     - Todos los pacientes.
+     - Por rango etario.
+     - Por historial médico.
+     - Por fecha de turno.
+     - Por localidad o zona geográfica.
+  5. El administrador redacta el mensaje de la notificación (título y cuerpo del mensaje).
+  6. Selecciona el canal de envío:
+     - SMS.
+     - Correo electrónico.
+     - Ambos.
+  7. Confirma el envío haciendo clic en **"Enviar Notificación"**.
+  8. Se muestra una notificación de éxito si el envío fue realizado correctamente.
 
 **▫️Precondiciones:** 
 - El administrador debe estar autenticado en el sistema y los pacientes en sí.
