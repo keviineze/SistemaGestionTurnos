@@ -236,7 +236,7 @@ Los requisitos funcionales del sistema de gestión de turnos son:
 ---
 
 ## 🚩 Boceto
-[![Boceto_KevinSosa](https://github.com/user-attachments/assets/f6e4b781-7cf9-4c56-9433-ea91935e9fd0)]
+![Boceto_KevinSosa](https://github.com/user-attachments/assets/f6e4b781-7cf9-4c56-9433-ea91935e9fd0)
 
 [Click para verlo en Línea](https://app.diagrams.net/#G1avrHwCQiVETKfxUOJ0o0nA5yJIxv9EZQ#%7B%22pageId%22%3A%22dd472eb7-4b8b-5cd9-a60b-b15522922e76%22%7D)
 
