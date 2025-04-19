@@ -2,11 +2,11 @@
 
 ---
 
-**Nombre y Apellido:** Kevin Sosa 
-**Materia:** Diseño Orientado a Objetos
-**Carrera:** Tecnicatura en Programación
-**Profesor:** Lic. Matias Velasquez
-**Año:** 2025
+- **Nombre y Apellido:** Kevin Sosa 
+- **Materia:** Diseño Orientado a Objetos
+- **Carrera:** Tecnicatura en Programación
+- **Profesor:** Lic. Matias Velasquez
+- **Año:** 2025
 
 ## Introducción
 
