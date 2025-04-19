@@ -1,3 +1,3 @@
-📚 Anexo - Introducción al Diseño Orientado a Objetos
+📚 Anexo
 
 - [Anexo - Introducción al Diseño Orientado a Objetos](introduccion.md)
