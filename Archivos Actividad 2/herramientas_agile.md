@@ -1,3 +1,3 @@
 ## Herramientas Agile
 
-- [Tarjetas CRC](Adicionales/Tarjetas_CRC.md)
+- [Tarjetas CRC](https://docs.google.com/spreadsheets/d/1GRLFhCIvMLw3slmX5P0cqZLqNmrq84Z4Rl5hUcPpPLo/edit?usp=sharing)
