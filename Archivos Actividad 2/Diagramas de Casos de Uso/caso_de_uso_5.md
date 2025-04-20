@@ -2,4 +2,4 @@
 
   ![Diagrama de Caso de Uso - Generar Informe de Turnos por Período](../Adicionales/Imagenes/Diagrama_Caso_5.png)
 
-[Accede a Drive para verlo en Línea](https://drive.google.com/file/d/1ZErBsQMGvPy3twUA5peNrwEInTZmeieG/view?usp=sharing)
+[Accede a Drive para verlo en Línea](https://drive.google.com/file/d/1s_0chlHR6S94XuepeMqylFB28SbJ_nXS/view?usp=sharing)
