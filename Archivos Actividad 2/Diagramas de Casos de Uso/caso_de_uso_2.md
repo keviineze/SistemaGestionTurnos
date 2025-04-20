@@ -2,4 +2,4 @@
 
   ![Diagrama de Caso de Uso - Modificar Datos de un Paciente](../Adicionales/Imagenes/Diagrama_Caso_2.png)
 
-[Accede a Drive para verlo en Línea](https://drive.google.com/file/d/137SmnmV2yGg1qBz2xpPxEuguLcNg-f_d/view?usp=sharing)
+[Accede a Drive para verlo en Línea](https://drive.google.com/file/d/1DSvGP-2Cf-5njxVSYjqP15Hli2UeqhE0/view?usp=sharing)
