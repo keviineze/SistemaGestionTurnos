@@ -2,4 +2,4 @@
 
   ![Diagrama de Caso de Uso - Ver Disponibilidad de Turnos de un Médico](../Adicionales/Imagenes/Diagrama_Caso_3.png)
 
-[Accede a Drive para verlo en Línea](https://drive.google.com/file/d/1q1verEy9QEcQ81ncqqG7Lw6aceNU9-nu/view?usp=sharing)
+[Accede a Drive para verlo en Línea](https://drive.google.com/file/d/1zgfsZem3_aVL5dzqOXtYDXAG2MWKvS1W/view?usp=sharing)
