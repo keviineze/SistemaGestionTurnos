@@ -19,7 +19,7 @@ Como parte de la digitalización, se han elaborado diagramas y casos de uso para
 ## Diagramas y Diseño
 
 -  [Anexos](Archivos%20Actividad%201/anexos.md)
--  [Diagramas UML](Archivos%20Actividad%202/Diagramas%20UML.md)
+-  [Diagramas UML](Archivos%20Actividad%202/diagramasUML.md)
 -  [Herramientas Ágiles](Archivos%20Actividad%202/herramientas_agile.md)
 
 
