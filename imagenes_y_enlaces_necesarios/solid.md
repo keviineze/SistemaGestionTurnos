@@ -6,7 +6,7 @@ Los principios SOLID son una serie de buenas prácticas para el diseño de softw
 
 -  [**Responsabilidad Única (SRP)**](/imagenes_y_enlaces_necesarios/srp.md)  
 -  [**Abierto/Cerrado (OCP)**](/imagenes_y_enlaces_necesarios/ocp.md)  
--  **Sustitución de Liskov (LSP)**  
+-  [**Sustitución de Liskov (LSP)**](/imagenes_y_enlaces_necesarios/lsp.md)  
 -  **Segregación de Interfaces (ISP)**  
 -  **Inversión de Dependencias (DIP)**
 
