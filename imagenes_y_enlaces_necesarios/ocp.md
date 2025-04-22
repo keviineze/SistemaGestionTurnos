@@ -26,5 +26,3 @@ A continuación se presenta un diagrama UML donde se muestra cómo se aplica el 
   - `NotificadorWhatsApp` (extensión hipotética)
 
 ![Diagrama OCP](../imagenes_y_enlaces_necesarios/diagrama_ocp.png)
-
-> El diagrama ilustra cómo las clases pueden extender el sistema sin modificar el código existente, permitiendo escalar el sistema con facilidad.
