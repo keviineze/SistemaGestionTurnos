@@ -25,3 +25,5 @@ El siguiente diagrama UML ilustra cómo las clases `TurnoPresencial` y `TurnoVir
   - `TurnoVirtual`
 
 ![Diagrama LSP](../imagenes_y_enlaces_necesarios/diagrama_lsp.png)
+
+[Accede a Drive para verlo en Línea](https://drive.google.com/file/d/1SQy75kWebkd0_Np3tGo4x_deJ6OnKbFo/view?usp=sharing)
