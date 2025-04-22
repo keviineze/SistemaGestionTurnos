@@ -8,7 +8,7 @@ En el sistema de turnos, esto evita que las clases implementen funcionalidades q
 ---
 
 ## Motivación
-Originalmente, el sistema contaba con una interfaz `Usuario` que incluía métodos para médicos, pacientes y administradores, lo que generaba implementaciones innecesarias para ciertos roles. Por ejemplo, un `Paciente` no necesitaba implementar métodos relacionados con la administración de médicos.
+Originalmente, el sistema contaba con una interfaz `Usuario` que incluía métodos para médicos, pacientes y administradores, lo que generaba implementaciones innecesarias para ciertos roles. Por ejemplo, un `Paciente` no necesitaba implementar méhttps://github.com/keviineze/SistemaGestionTurnos/blob/main/imagenes_y_enlaces_necesarios/isp.mdtodos relacionados con la administración de médicos.
 
 Aplicando el ISP, se dividieron las interfaces en varias más pequeñas y específicas como `IGestorTurnos`, `IConsultorTurnos`, y `IPacienteAcciones`, permitiendo que cada clase implemente solo lo necesario según su responsabilidad.
 
