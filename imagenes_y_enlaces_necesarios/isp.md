@@ -25,5 +25,3 @@ El siguiente diagrama UML ilustra cómo se aplicaron interfaces específicas par
 - `IPacienteAcciones` → implementada por `Paciente`
 
 ![Diagrama ISP](../imagenes_y_enlaces_necesarios/diagrama_isp.png)
-
-> El diagrama muestra cómo las interfaces segregadas ayudan a que cada clase implemente solo los métodos que realmente necesita, mejorando la mantenibilidad del sistema.
