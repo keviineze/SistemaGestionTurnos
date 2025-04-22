@@ -25,3 +25,5 @@ El siguiente diagrama UML ilustra cómo se aplicaron interfaces específicas par
 - `IPacienteAcciones` → implementada por `Paciente`
 
 ![Diagrama ISP](../imagenes_y_enlaces_necesarios/diagrama_isp.png)
+
+[Accede a Drive para verlo en Línea](https://drive.google.com/file/d/189hGlsbKfUDd1Q08D0AQpjvphILI6w0F/view?usp=sharing)
