@@ -26,5 +26,3 @@ A continuación se incluye un diagrama UML que muestra cómo se aplicó el princ
 
 ![Diagrama SRP](../imagenes_y_enlaces_necesarios/diagrama_srp.png)
 
-> El diagrama refleja cómo estas clases están desacopladas y se relacionan solo mediante responsabilidades bien definidas.
-
