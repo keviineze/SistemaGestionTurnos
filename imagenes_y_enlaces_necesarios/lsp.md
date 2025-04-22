@@ -20,7 +20,7 @@ Si un médico reemplaza a otro en una consulta, debería poder seguir el mismo p
 ## Estructura de Clases
 El siguiente diagrama UML ilustra cómo las clases `TurnoPresencial` y `TurnoVirtual` heredan de una clase base `Turno`, respetando sus métodos y estructura, permitiendo así su uso intercambiable sin alterar el sistema:
 
-- `Turno` (clase base)
+  - `Turno` (clase base)
   - `TurnoPresencial`
   - `TurnoVirtual`
 
