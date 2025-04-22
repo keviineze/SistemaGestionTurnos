@@ -26,3 +26,5 @@ A continuación se presenta un diagrama UML donde se muestra cómo se aplica el 
   - `NotificadorWhatsApp` (extensión hipotética)
 
 ![Diagrama OCP](../imagenes_y_enlaces_necesarios/diagrama_ocp.png)
+
+[Accede a Drive para verlo en Línea](https://drive.google.com/file/d/17cyk0yM9RB97NdbuSebt4lZ0UJB29dOD/view?usp=sharing)
