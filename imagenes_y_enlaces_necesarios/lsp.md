@@ -25,5 +25,3 @@ El siguiente diagrama UML ilustra cómo las clases `TurnoPresencial` y `TurnoVir
   - `TurnoVirtual`
 
 ![Diagrama LSP](../imagenes_y_enlaces_necesarios/diagrama_lsp.png)
-
-> El diagrama muestra cómo se respeta el contrato de la clase base `Turno` en sus derivadas, permitiendo que se apliquen de forma segura en el sistema.
