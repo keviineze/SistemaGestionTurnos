@@ -26,3 +26,5 @@ A continuación se incluye un diagrama UML que muestra cómo se aplicó el princ
 
 ![Diagrama SRP](../imagenes_y_enlaces_necesarios/diagrama_srp.png)
 
+[Accede a Drive para verlo en Línea](https://drive.google.com/file/d/1vheQnbFHXyqPbjeDvp0XddpXI4tPBhbu/view?usp=sharing)
+
