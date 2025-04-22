@@ -10,7 +10,7 @@ En el Sistema de Gestión de Turnos, este principio se aplicó para desacoplar l
 ## Motivación
 Inicialmente, el sistema estaba diseñado de manera que las clases principales como `GestorTurnos` dependían directamente de implementaciones concretas como `TurnoDAO`, lo que dificultaba la reutilización del código y su prueba unitaria.
 
-Para resolverlo, se introdujeron interfaces como `ITurnoRepository`, que definen los contratos que deben cumplir las clases encargadas de la persistencia. De esta forma, `GestorTurnos` depende de una abstracción en lugar de una implementación concreta.
+Para resolverlo, se introdujeron interfaces como `IRepositorioTurnos`, que definen los contratos que deben cumplir las clases encargadas de la persistencia. De esta forma, `GestorTurnos` depende de una abstracción en lugar de una implementación concreta.
 
 **Ejemplo del mundo real**:  
 Es como si una clínica definiera un protocolo de comunicación para turnos médicos. No importa si se usa un sistema digital o papel físico, mientras ese protocolo se cumpla. Así, cambiar el "cómo" sin afectar el "qué" es posible gracias al DIP.
@@ -20,8 +20,8 @@ Es como si una clínica definiera un protocolo de comunicación para turnos méd
 ## Estructura de Clases
 El siguiente diagrama UML muestra cómo las clases del sistema dependen de interfaces y no de implementaciones concretas:
 
-- `GestorTurnos` depende de `ITurnoRepository`
-- `TurnoDAO` implementa `ITurnoRepository`
+- `GestorTurnos` depende de `IRepositorioTurnos`
+- `TurnoDAO` implementa `IRepositorioTurnos`
 
 Esto permite cambiar la fuente de datos (por ejemplo, de una base de datos SQL a una API REST) sin modificar la lógica de negocio del sistema.
 
