@@ -27,4 +27,4 @@ Esto permite cambiar la fuente de datos (por ejemplo, de una base de datos SQL a
 
 ![Diagrama DIP](../imagenes_y_enlaces_necesarios/diagrama_dip.png)
 
-> El diagrama evidencia cómo la inversión de dependencias permite una arquitectura más flexible, desacoplada y fácil de extender.
+[Accede a Drive para verlo en Línea](https://drive.google.com/file/d/1wUbIq8dz1IduNQbmV22WZc_XIzrTHYdV/view?usp=sharing)
