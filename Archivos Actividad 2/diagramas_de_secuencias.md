@@ -1,6 +1,6 @@
 ##  Diagramas de Secuencias
 
-- [Diagrama de Secuencia - Registrar un Nuevo Medico]()
+- [Diagrama de Secuencia - Registrar un Nuevo Medico - Registro exitoso del nuevo médico]()
 - [Diagrama de Secuencia - Modificar Datos de un Paciente]()
 - [Diagrama de Secuencia - Ver Disponibilidad de Turnos de un Médico]()
 - [Diagrama de Secuencia - Enviar Notificaciones Masivas a Pacientes]()
